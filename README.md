@@ -10,13 +10,13 @@ See the tutorial in the `docs` folder, or press `h` when the application is runn
 
 ## Installation & Running
 
-There is no package yet. Just run
+To install the package from pip, run
 ```
-pip install -r requirements.txt
+pip3 install blacksock
 ```
-to install the python dependencies. You also need OpenCV installed.
+Alternatively, you install locally by running `pip install .` after cloning this repository.
 
 Afterwards, you can run:
 ```
-python3 main.py
+python3 -m blacksock
 ```

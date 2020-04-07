@@ -1,10 +1,10 @@
 import cv2
 import webbrowser
 
-from VideoSource import VideoSource
-from AreaManager import AreaManager
-from MidiManager import MidiManager
-import ImageProcessing
+from blacksock.VideoSource import VideoSource
+from blacksock.AreaManager import AreaManager
+from blacksock.MidiManager import MidiManager
+import blacksock.ImageProcessing as ImageProcessing
 
 BLUE = (255, 0, 0)
 GREEN = (0, 255, 0)

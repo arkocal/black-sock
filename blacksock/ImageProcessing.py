@@ -7,7 +7,7 @@ def area_is_active(area, frame):
     enough black pixels inside."""
     # These contants are likely to be calibrated later on
     NR_REQUIRED_PIXELS = 1
-    THERESHOLD = 50
+    THERESHOLD = 30
     STEP_SIZE = 5
     TARGET_COLOR = np.array([0, 0, 0])
     x_min, x_max = sorted([area.corner_1[0], area.corner_2[0]])
